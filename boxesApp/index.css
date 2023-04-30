@@ -1,1 +1,75 @@
 /* Write your code here. */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.bg-container {
+  min-height: 100vh;
+
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+
+.heading {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Roboto";
+  text-align: center;
+}
+
+.box-container {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.commonprops {
+  margin: 10px;
+  color: #ffffff;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+}
+
+.small {
+  background-color: #fbbf24;
+  height: 100px;
+  width: 100px;
+}
+
+.medium {
+  background-color: #38bdf8;
+  height: 150px;
+  width: 150px;
+}
+
+.large {
+  background-color: #ec4899;
+  height: 200px;
+  width: 200px;
+}
+
+@media screen and (min-width: 768px) {
+  .box-container {
+    flex-direction: row;
+    /* added */
+    align-items: flex-end;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .commonprops {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
