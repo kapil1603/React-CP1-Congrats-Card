@@ -10,7 +10,7 @@ body {
 .bgcontainer {
   display: flex;
   flex-direction: column;
-  justify-content: left;
+  /* justify-content: left; */
   align-items: center;
 
   min-height: 100vh;

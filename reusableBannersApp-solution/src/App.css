@@ -11,8 +11,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Write your code here. */
-.seasons-container {
+.app-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,9 +19,9 @@ body {
 }
 
 .banner-cards-list {
-  /* display: flex;
+  display: flex;
   flex-direction: column;
-  align-items: center; */
+  align-items: center;
   width: 90%;
   padding-left: 0px;
 }

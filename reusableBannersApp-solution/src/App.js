@@ -1,4 +1,5 @@
-import Seasons from './components/BannerCardItem'
+import BannerCardItem from './components/BannerCardItem'
+
 import './App.css'
 
 const bannerCardsList = [
@@ -24,10 +25,10 @@ const bannerCardsList = [
 ]
 
 const App = () => (
-  <div className="seasons-container">
+  <div className="app-container">
     <ul className="banner-cards-list">
-      {bannerCardsList.map(eachItem => (
-        <Seasons bannerDetails={eachItem} key={eachItem.id} />
+      {bannerCardsList.map(eachBanner => (
+        <BannerCardItem bannerDetails={eachBanner} key={eachBanner.id} />
       ))}
     </ul>
   </div>
